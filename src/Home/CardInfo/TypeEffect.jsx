@@ -1,9 +1,12 @@
-function TypeEffect({ text }) {
+import React from "react";
+
+const TypeEffect = ({ type }) => {
   return (
-    <div className="bg-purple-200 border border-purple-400 p-3 rounded shadow-md text-purple-800 font-semibold text-center flex-1">
-      {text}
+    <div className="p-4 bg-blue-100 rounded-md shadow-md text-center">
+      <h2 className="text-xl font-semibold text-blue-700">Type Effect</h2>
+      <p className="mt-2 text-blue-600">{type}</p>
     </div>
   );
-}
+};
 
 export default TypeEffect;
