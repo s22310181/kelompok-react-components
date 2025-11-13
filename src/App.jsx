@@ -1,10 +1,17 @@
-function App() {
+// src/App.jsx
+import React from "react";
+import Header from "./components/Header/Header.jsx";
+import Home from "./components/Home/Home.jsx";
+import Footer from "./components/Footer/Footer.jsx";
+
+export default function App() {
   return (
-    <div>
-      <h1>Welcome to Vite + React</h1>
-      <p>Edit src/App.jsx and save to test HMR</p>
+    <div className="min-h-screen flex flex-col bg-gray-50">
+      <Header />
+      <main className="flex-grow">
+        <Home />
+      </main>
+      <Footer />
     </div>
   );
 }
-
-export default App;
