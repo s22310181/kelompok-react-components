@@ -1,13 +1,8 @@
-import Header from "./components/Header/Header";
-import Home from "./components/Home/Home";
-import Footer from "./components/Footer/Footer";
-
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col">
-      <Header title="Ini Header" />
-      <Home title="Ini Halaman Home" />
-      <Footer title="Ini Footer" />
+    <div>
+      <h1>Welcome to Vite + React</h1>
+      <p>Edit src/App.jsx and save to test HMR</p>
     </div>
   );
 }
