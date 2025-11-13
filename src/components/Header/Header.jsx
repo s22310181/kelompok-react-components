@@ -1,7 +1,7 @@
 // src/components/Header/Header.jsx
 import React from 'react';
-// import Logo from './Logo.jsx';
-// import Generations from './Generations/Generations.jsx';
+import Logo from './Logo.jsx';
+import Generations from './Generations/Generations.jsx';
 
 export default function Header() {
   return (
